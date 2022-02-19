@@ -1,0 +1,10 @@
+gasket.c: In function ‘myinit’:
+gasket.c:20:42: error: unknown type name ‘c’
+   20 |       gluOrtho2D(0.0, 500.0, 0.0, 500.0);c
+      |                                          ^
+In file included from /usr/include/GL/freeglut_std.h:143,
+                 from /usr/include/GL/glut.h:17,
+                 from gasket.c:5:
+gasket.c:21:20: error: expected declaration specifiers or ‘...’ before numeric constant
+   21 |       glMatrixMode(GL_MODELVIEW);
+      |                    ^~~~~~~~~~~~

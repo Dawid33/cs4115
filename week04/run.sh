@@ -34,5 +34,3 @@ do
 	echo $OUTPUT >> out
 	echo ""
 done
-
-# | (printf "$num," && cat) >> out
